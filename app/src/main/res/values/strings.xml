@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MADlab8-spinner</string>
+    <string name="submit">Submit</string>
+    <string name="country_selection">Country Selection</string>
+</resources>
