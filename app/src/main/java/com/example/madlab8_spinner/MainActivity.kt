@@ -54,13 +54,13 @@ class MainActivity : AppCompatActivity() {
             build.setTitle("Confirm Selection")
             build.setMessage("Ensure you have selected the correct country")
             build.setPositiveButton("Yes"){dialogInterface, which ->
-                Toast.makeText(applicationContext, "Recorded!", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "Recorded!", Toast.LENGTH_SHORT).show()
             }
             build.setNeutralButton("Cancel"){dialogInterface, which ->
                 finish()
             }
             build.setNegativeButton("No"){dialogInterface, which ->
-                Toast.makeText(applicationContext, "Please select a country", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "Please select a country", Toast.LENGTH_SHORT).show()
             }
 
             val alert : AlertDialog = build.create()
